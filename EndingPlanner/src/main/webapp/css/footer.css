@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face{font-family: 'MDGaesung'; src:url(../font/MDGaesung.ttf) format('truetype');}
+@import url(//db.onlinewebfonts.com/c/ecc652fb9c14562310d166f11a2c64de?family=MDGaesung);
+
+#footer{width: 100%; height: 119px; background-color: #38393a;}
+    .footer_gnbbox{width: 1000px; margin: 0 auto;}
+    .footer_gnb{text-align: center; font-family: Noto Sans KR; font-size: 1rem; font-weight: 400; color: white; line-height: 75px;}
+    .footer_gnb a{color: white;}
+    .footer_gnb a:hover{}
+    .footer_gnb li{display: inline; margin-right: 30px;}
+    .footer_gnb li::before{content: "|"; margin-right: 30px;}
+    .footer_gnb li:first-child::before{content: none;}
+    .footer_gnbbox p{text-align: center; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 400; color: white;}

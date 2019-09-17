@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face{font-family: 'MDGaesung'; src:url(../font/MDGaesung.ttf) format('truetype');}
+@import url(//db.onlinewebfonts.com/c/ecc652fb9c14562310d166f11a2c64de?family=MDGaesung);
+
+*{margin: 0px auto; padding: 0px; ;}
+li{list-style:none;}
+a{text-decoration: none; color: black;}
+
+/**헤더 GNB**/
+.head_box{width: 1000px; margin: 0 auto; }
+.head_gnb{height:20px; }
+.gnb{float: right; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 500; }
+.gnb a:hover{color: red; text-decoration: underline;}
+.gnb li{float: left; margin-right: 10px; }
+.gnb li::before{content: "|"; padding-right:10px; color: #999999;}
+.gnb li:first-child::before{content: none;}
+.gnb > li > a{color: #333333;}
+.logo img{max-width: 100%;}
+.logo_text{display: inline-block; vertical-align: 10px; font-family: MDGaesung; font-size: 1.875rem;}
+.head_menu{width: 760px; font-family: Noto Sans KR; font-size: 1.125rem; font-weight: 500; display: inline-block; text-align: center; }
+.menu{}
+.menu li{display: inline-block; margin-right: 8.5%; }
+.menu > li > a{color: #333333;}
+/**헤더 GNB 끝**/
+
+#footer{width: 100%; height: 119px; background-color: #38393a;}
+    .footer_gnbbox{width: 1000px; margin: 0 auto;}
+    .footer_gnb{text-align: center; font-family: Noto Sans KR; font-size: 1rem; font-weight: 400; color: white; line-height: 75px;}
+    .footer_gnb a{color: white;}
+    .footer_gnb a:hover{}
+    .footer_gnb li{display: inline; margin-right: 30px;}
+    .footer_gnb li::before{content: "|"; margin-right: 30px;}
+    .footer_gnb li:first-child::before{content: none;}
+    .footer_gnbbox p{text-align: center; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 400; color: white;}
+
+/*list*/
+#contents{width: 100%; height: 780px; background-color: #fafafa; margin-top: 20px; padding-top: 40px;}
+.signout_box{width: 1000px; height: 890px; margin:0 auto;}
+.list {width: 290px; height: 740px; float: left; background-color: #ffffff; border: 1px solid #909090;}
+.list > ul{cursor: pointer;}
+.list > ul:hover{font-weight: 700; font-size: 18px;}
+.list > ul > li {margin-left: 20px; height: 50px; line-height: 45px;}
+.li_3 {border-left: 2px solid black; font-weight: 600;}
+.out_content{width: 706px; height: 740px; border: 1px solid #909090; display: inline-block; border-left: none; background-color: #ffffff;}
+#tab2,#tab3{display: none;}
+
+/*list end*/
+.out_content > p {font-size: 18px; text-align: center; margin-top: 50px; font-weight: 550;}
+.out_ex {width: 650px; height: 200px; background-color: #f7f7f7; margin-top: 20px;}
+.out_ex > img {padding: 15px 0px 0px 10px; float: left;}
+.out_ex > p {font-size: 18px; float: left; line-height: 65px; margin-left: 10px; font-weight: 550;}
+.out_ex > ul > li {clear: both; list-style: disc; margin-left: 40px; font-size: 12.5px; height: 40px;}
+.out_chk {width: 650px; height: 295px; border: 1px solid #909090; margin-top: 30px;}
+.out_chk > p {text-align: center; margin-top: 20px; font-weight: 550; font-size: 16px;}
+.out_chkbox1 {width: 260px; float: left;}
+.out_chkbox2 {width: 390px; float: left;}
+.out_chkbox3 {width: 260px; float: left;}
+.out_chkbox4 {width: 390px; float: left;}
+.out_chkbox5 {width: 260px; float: left;}
+.out_chkbox6 {width: 390px; float: left;}
+.out_chkbox7 {width: 260px; float: left;}
+.out_chkbox8 {width: 390px; float: left;}
+#out_chk {width: 20px; height: 20px; vertical-align: middle; cursor: pointer; margin: 20px 10px 20px 20px;}
+#out_chk2{width: 20px; height: 20px; vertical-align: middle; cursor: pointer; margin: 20px 10px 20px 50px;}
+#out_chk3 {width: 20px; height: 20px; vertical-align: middle; cursor: pointer; margin: 20px 10px 20px 20px;}
+#out_chk4{width: 20px; height: 20px; vertical-align: middle; cursor: pointer; margin: 20px 10px 20px 50px;}
+#out_chk5 {width: 20px; height: 20px; vertical-align: middle; cursor: pointer; margin: 20px 10px 20px 20px;}
+#out_chk6{width: 20px; height: 20px; vertical-align: middle; cursor: pointer; margin: 20px 10px 20px 50px;}
+#out_chk7 {width: 20px; height: 20px; vertical-align: middle; cursor: pointer; margin: 20px 10px 20px 20px;}
+#out_chk8{width: 20px; height: 20px; vertical-align: middle; cursor: pointer; margin: 20px 10px 20px 50px;}
+#out_chklast{width: 20px; height: 20px; vertical-align: middle; cursor: pointer; margin: 20px 10px 20px 30px;}
+label {font-size: 14px;}
+.out_btn {width: 120px; height: 40px;}
+.out_btn > button {width: 120px; height: 40px; background-color: #fb8e45; border-radius: 5px; border: none; color: #ffffff; font-size: 16px; cursor: pointer;}
+/** singout end **/
+
+/** pschange start **/
+.change_exbox {width: 650px; height: 500px;}
+.change_exbox > p {margin-top: 50px; color: #909090; font-weight: 550; font-size: 14px;}
+.change_ex {width: 650px; height: 130px; border: 1px solid #909090; margin-top: 10px;}
+.change_ex > h3 {font-size: 18px; padding: 10px 0px 5px 10px; color: #535353;}
+.change_ex > p {font-size: 14px; font-weight: 500; margin: 5px 0px 10px 15px; color: #535353;}
+.change_ex > p > span {color: red;}
+.change_input{width: 650px; height: 270px; border: 1px solid #909090; margin-top: 30px;}
+.change_input > p {width: 600px; text-align: right; margin: 25px 0px 20px 0px; font-weight: 550;}
+.change_input > p > input {width: 350px; height: 35px; margin-left: 50px; }
+.change_input > p > span {margin-left: 58px; color: #535353; margin-right: 265px; font-weight: 500;}
+.change_btn {width: 120px; height: 40px;}
+.change_btn > button {width: 120px; height: 40px; background-color: #373737; border-radius: 5px; border: none; color: #ffffff; font-size: 16px; cursor: pointer;}
+/** paschange end **/
+
+/** profileChange start **/
+.profile_box {width: 540px; height: 600px; margin-top: 30px;}
+.profile_img {width: 100px; float: left;}
+.profile_idbox {float: left; margin-left: 50px;}
+.profile_id {font-size: 26px; margin: 20px 0px 10px 0px;}
+.profile_imgchn {font-size: 14px; color: #fb8e45; font-weight: 500;}
+.profile_exbox {clear: both; width: 540px; height: 500px; margin-top: 30px; float: left; font-size: 16px; font-weight: 550;}
+.name {text-align: right;}
+.name > input {width: 350px; height: 35px; margin: 0px 40px 20px 50px;}
+.message {text-align: right;}
+.message > textarea {width: 350px; height: 130px; margin: 0px 40px 20px 50px; float: right; overflow-x: hidden; resize: none;}
+.info {width: 240px; margin-bottom: 30px; margin-top: 10px; color: #3d3d3d; }
+.phone {text-align: right;}
+.phone > input {width: 350px; height: 35px; margin: 0px 40px 20px 50px;}
+.email {text-align: right;}
+.email > input {width: 350px; height: 35px; margin: 0px 40px 20px 50px;}
+.gender {text-align: right; width: 100px; float: left;}
+.man {width: 60px; float: left;  margin: 0px 40px 20px 50px;}
+.man > input {width: 20px; height: 20px; vertical-align: middle;}
+.girl > input {width: 20px; height: 20px; vertical-align: middle;}
+.gender > input {width: 20px; height: 20px;}
+.birth {clear: both; text-align: right;}
+.birth > input {width: 350px; height: 35px; margin: 0px 40px 20px 50px;}
+/** profileChange end **/

@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face{font-family: 'MDGaesung'; src:url(../font/MDGaesung.ttf) format('truetype');}
+
+*{margin: 0px; padding: 0px; ;}
+#wrap{width:100%;}
+li{list-style:none;}
+a{text-decoration: none; color: black;}
+
+.my_top{width: 1000px; height: 210px; margin: 0 auto; font-family: Noto Sans KR; margin-top:50px;}
+.my_img{float: left; margin-left: 30px;}
+.my_profil{width: 370px; display: inline-block; font-size: 1.875rem; color: #333333; font-weight: 500; margin-left: 50px; margin-top: 15px;}
+.pro_updatebtn{width: 115px; height: 30px; float:left; border: 1px solid #b3b3b3; background-color: white; border-radius: 5px; margin-left:180px;
+    margin-top:-35px; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 400; color: #474646;}
+.profile{margin-left:23px; line-height:30px;}
+.my_record{margin-top: 10px;}
+.my_record > li{float: left; text-align: center; color: black;}
+.my_record > li:nth-child(2){margin-left: 70px; margin-right: 70px;}
+.my_record > li > p{font-size: 1.125rem; font-weight: 400; color: #474646;}
+.my_write{width: 350px; height: 50px; resize: none; font-family: Noto Sans KR; font-size: 0.75rem; font-weight: 400; margin-top: 20px;}
+.my_write::placeholder{color: #bdbdbd; padding-left: 5px; padding-top: 3px;}
+.my_infobox{width: 210px; float: right; margin-top: 20px; margin-right: 15px;}
+.my_info{font-size: 0.875rem; font-weight: 400; color: #797777;}
+.my_info > li{height: 40px; line-height: 40px; margin-bottom: 15px;}
+.my_info > li > img{vertical-align: middle; margin-right: 20px;}
+.my_info > li > span{font-size: 1.125rem; font-weight: 500; color: #272727; }
+
+.mypage_menubox{width: 1000px; margin: 0 auto; border-top: 3px solid #d2d2d2; margin-top: 50px;}
+.mypage_menu{width: 400px; margin: 0 auto;}
+.mypage_menu > span{margin-left: 40px; cursor: pointer; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 500;}
+.view{border-top: 3px solid black; color: #272727;}
+.hide{color: #696969;}
+
+.my_albumbox{width: 1000px; margin: 0 auto; margin-top: 35px; margin-bottom:30px;}
+.album_contents{display: inline-block; margin-left: 14px; margin-right: 14px;}
+.album_text{width: 300px; height: 50px; line-height: 50px; text-align: center; 
+    font-family: Noto Sans KR; font-size: 1.125rem; font-weight: 400; color: #666666;}
+.album_pager{width: 25px; height: 25px; margin: 0 auto; background-color: #404040; text-align: center; line-height: 25px; margin-top: 20px;
+    font-family: Noto Sans KR; font-size: 0.75rem; font-weight: 400; color: white;}
+
+.my_secretbox{width: 1000px; margin: 0 auto; margin-top: 35px; display: none; margin-bottom:100px;}
+.album_pager2{width: 25px; height: 25px; margin: 0 auto; background-color: #404040; text-align: center; line-height: 25px; margin-top: 20px;
+    font-family: Noto Sans KR; font-size: 0.75rem; font-weight: 400; color: white; }
+
+.my_hallbox{width: 950px; margin: 0 auto; margin-top: 25px; display: none; margin-bottom:18px;}
+.hall_table{border-spacing: 0px; font-family: Noto Sans KR; border-collapse:collapse;}
+.hall_head{width: 950px; height: 50px; background-color: #f2f2f2; border-bottom: 1px solid #4b4b4b; text-align: center; 
+    font-size: 1rem; font-weight: 500; color: #272727;}
+.hall_num{width: 93px;}
+.hall_num > p{font-size: 1.125rem;}
+.hall_img{width: 160px;}
+.hall_contentsbox{width: 455px;}
+.hall_date{width: 125px;}
+.hall_views{width: 120px;}
+.hall_body{height: 140px; border-bottom: 1px solid #818181; text-align: center; 
+    font-size: 1rem; font-weight: 500; color: #636363;}
+.hall_imgbox{width: 120px; height: 120px; border-radius: 50%; overflow: hidden; margin: 0 auto; position: relative; }
+.hall_imgbox > img{position: absolute; top:0; bottom: 0; left: -50%; right: -50%; margin: auto;}
+.hall_title{width: 400px; height: 90px; margin: 0 auto; text-align: left; font-size: 1.125rem; font-weight: 500; color: #2e2e2e;}
+.hall_content{margin-top: 10px; overflow: hidden; display: -webkit-box; -webkit-line-clamp:3; -webkit-box-orient: vertical;
+    font-size: 0.875rem; color: #919191; }

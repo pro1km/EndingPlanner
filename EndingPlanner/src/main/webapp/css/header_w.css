@@ -1,0 +1,15 @@
+#header{width: 1000px; height: 10%;}
+    .head_box{width: 1000px; margin: 0 auto; }
+	.head_gnb{height:20px; }
+	.gnb{float: right; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 500; }
+	.gnb a:hover{color: red; text-decoration: underline;}
+	.gnb li{float: left; margin-right: 10px; }
+	.gnb li::before{content: "|"; padding-right:10px; color: #ffffff;}
+	.gnb li:first-child::before{content: none;}
+	.gnb > li > a{color: #ffffff;}
+	.logo img{max-width: 100%;}
+	.logo_text{display: inline-block; vertical-align: 10px; font-family: MDGaesung; font-size: 1.875rem; color:#ffffff}
+	.head_menu{width: 760px; font-family: Noto Sans KR; font-size: 1.125rem; font-weight: 500; display: inline-block; text-align: center; }
+	.menu{}
+	.menu li{display: inline-block; margin-right: 8.5%; }
+	.menu > li > a{color: #ffffff;}

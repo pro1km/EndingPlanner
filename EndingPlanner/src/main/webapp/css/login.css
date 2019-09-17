@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face{font-family: 'MDGaesung'; src:url(font/MDGaesung.ttf) format('truetype');}
+
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px auto; padding: 0;}
+body{overflow-x: hidden;}
+ul{list-style:none;}
+a{text-decoration:none; color:#000000;}
+#wrap{width: 100%; height: 850px;  background-image: url("../images/mountains-1412683_1280.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+#header{width: 1000px; height: 10%;}
+    .head_box{width: 1000px; margin: 0 auto; }
+   .head_gnb{height:20px; }
+   .gnb{float: right; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 500; }
+   .gnb a:hover{color: red; text-decoration: underline;}
+   .gnb li{float: left; margin-right: 10px; }
+   .gnb li::before{content: "|"; padding-right:10px; color: #ffffff;}
+   .gnb li:first-child::before{content: none;}
+   .gnb > li > a{color: #ffffff;}
+   .logo img{max-width: 100%;}
+   .logo_text{display: inline-block; vertical-align: 10px; font-family: MDGaesung; font-size: 1.875rem; color:#ffffff}
+   .head_menu{width: 760px; font-family: Noto Sans KR; font-size: 1.125rem; font-weight: 500; display: inline-block; text-align: center; }
+   .menu{}
+   .menu li{display: inline-block; margin-right: 8.5%; }
+   .menu > li > a{color: #ffffff;}
+
+#contents{width: 1000px; height: 77.5%;}
+.login_wrap{padding-top: 24%;}
+    .id{width: 280px; height: 65px; background-color: #000000; opacity: 0.8; border-radius: 400px; }
+    .id label > img {padding: 16px 0px 0px 35px; float: left; cursor: pointer;}
+    .id_01{padding:15px 0px 0px 75px;}
+    #log_id{width:150px; height:35px; font-size:20px; background-color: #000000; opacity: 0.8; border:none; color:#fff; cursor: pointer;}
+    .pass{width: 280px; height: 65px; background-color: #000000; opacity: 0.8; border-radius: 400px;}
+    .pass label > img {padding: 16px 0px 0px 35px; float: left; cursor: pointer;}
+    #log_pw{width:150px; height:35px; font-size:20px; background-color: #000000; opacity: 0.8; border:none; color:#fff; cursor: pointer;}
+    .log_in {width: 280px; height: 65px; background-color: #d3033e; border-radius: 400px; color: #ffffff; font-size: 24px; text-align: center; line-height: 64px; margin: 0 auto; cursor:pointer; border: none;}
+    .passign{margin-top: 20px; width: 280px;}
+    .forgot{width: 340px; color: #ffffff; margin-top: 20px; position: relative;}
+    .forgot > a{color: #ffffff; text-decoration: underline;}
+    .forgot a:hover{color: red;}
+
+   
+#footer{width: 100%; height: 119px; background-color: #38393a;}
+    .footer_gnbbox{width: 1000px; margin: 0 auto;}
+    .footer_gnb{text-align: center; font-family: Noto Sans KR; font-size: 1rem; font-weight: 400; color: white; line-height: 75px;}
+    .footer_gnb a{color: white;}
+    .footer_gnb a:hover{}
+    .footer_gnb li{display: inline; margin-right: 30px;}
+    .footer_gnb li::before{content: "|"; margin-right: 30px;}
+    .footer_gnb li:first-child::before{content: none;}
+    .footer_gnbbox p{text-align: center; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 400; color: white;}

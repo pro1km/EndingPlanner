@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="member">
+	<select id="login" resultType="Member">
+		SELECT * FROM  member WHERE id=#{id} and password=#{password}
+	</select>
+
+	<select id="list" resultType="Member">
+		SELECT * FROM member  WHERE id=#{id}
+	
+	</select>
+	
+	<select id="item" resultType="Member">
+		SELECT * FROM member WHERE id=#{id}
+	</select>
+	
+	<delete id="delete">
+		DELETE FROM member WHERE id=#{id}
+	</delete>
+	
+	<insert id="add">
+		INSERT INTO member(id, password, name, birth, tel, email, gender)
+		VALUES (#{id}, #{password}, #{name}, CONCAT(#{birth}, '년', #{month}, '월', #{date}, '일'), CONCAT(#{tel}, '-', #{tel1}, '-', #{tel2}) , CONCAT(#{email}, '@', #{email2}) , #{gender})
+	</insert>
+	
+	<update id="update">
+		UPDATE member
+		SET password=#{password},email=#{email},name=#{name},birth=#{birth},address=#{address},phone=#{phone}
+		WHERE id=#{id}
+	</update>
+	
+	<select id="idCheck" resultType="Integer">
+		select count(id) from member where id = #{id}
+	</select>
+	
+	<select id="loginOk" resultType="Integer">
+		select count(id) from member where id = #{id} and password=#{password}
+	</select>
+	
+</mapper>

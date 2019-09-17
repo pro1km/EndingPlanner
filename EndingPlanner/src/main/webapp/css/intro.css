@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+*{margin: 0px; padding: 0px; ;}
+li{list-style: none;}
+a{text-decoration: none; color: black;}
+
+/**헤더 GNB**/
+.head_box{width: 1000px; margin: 0 auto; }
+.head_gnb{height:20px; }
+.gnb{float: right; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 500; }
+.gnb a:hover{color: red; text-decoration: underline;}
+.gnb li{float: left; margin-right: 10px; }
+.gnb li::before{content: "|"; padding-right:10px; color: #999999;}
+.gnb li:first-child::before{content: none;}
+.gnb > li > a{color: #333333;}
+.logo{width:}
+.logo img{max-width: 100%;}
+.logo_text{display: inline-block; vertical-align: 10px; font-family: MDGaesung; font-size: 1.875rem;}
+.head_menu{width: 760px; font-family: Noto Sans KR; font-size: 1.125rem; font-weight: 500; display: inline-block; text-align: center; }
+.menu{}
+.menu li{display: inline-block; margin-right: 8.5%; }
+.menu > li > a{color: #333333;}
+/**헤더 GNB 끝**/
+
+.notice_top{ width: 100%; height: 200px; background:url("../images/notice_bg.png") no-repeat center center; margin-top: 30px;}
+.notice_topbox{width: 1000px; margin: 0 auto; font-family: Noto Sans KR; text-align: center;}
+.notice_intro{font-size: 1.5rem; font-weight: 500; color: white; padding-top: 30px;}
+.notice_intro::after{display: inline-block; margin: 0 0 8px 15px; height: 2px; content: ""; background-color: white; width: 255px;}
+.notice_intro::before{display: inline-block; margin: 0 15px 8px 0; height: 2px; content: ""; background-color: white; width: 255px;}
+.notice_toptext{font-size: 1.875rem; font-weight: 500; color: #d6d5d5; margin-top: 20px;}
+.notice_toptext > span{font-weight: 700; color: white;}
+.notice_toptext2{width: 550px; height: 35px; border-radius: 500px; background-color: #e4e4e4; margin: 0 auto; line-height: 35px; margin-top: 20px;
+    font-size: 1.125rem; font-weight: 400; color: #494949;}
+
+.notice_mid{width: 1000px; height: 380px; margin: 0 auto;  font-family: Noto Sans KR;}
+.notice_img01{float: left;  box-shadow: 1px 1px 30px #aaaaaa; position: relative; z-index: 50; margin-left: 10px; margin-top: 30px;}
+.notice_01box{width: 70px; height: 50px; background-color: #fee7d2; box-shadow: 2px 2px 5px #aaaaaa; display: inline-block; margin-top: 50px;
+    text-align: center; line-height: 50px; font-size: 1.5rem; font-weight: 500; color: #494949;}
+.notice_midbox{width: 465px; margin-left: 535px;}
+.notice_midtext{}
+.notice_midtext > span{font-size: 1.875rem; font-weight: 500; color: #494949;}
+.notice_midtext > li{list-style: circle; font-size: 0.875rem; font-weight: 500; color: #494949; padding-top: 20px; margin-left: 20px;}
+
+.notice_bottom{width: 100%; height: 420px; background-color: #d6dcc2; font-family: Noto Sans KR;}
+.notice_botbox{width: 1000px; margin: 0 auto;}
+.notice_bottomtbox{font-size: 1.875rem; font-weight: 500; float: left; margin-top: 25px; margin-left: 25px; position: ; z-index: 30;}
+.notice_bottomtext{}
+.notice_bottomtext > span{font-size: 1.125rem; font-weight: 500;}
+.notice_bottomtext > li{font-size: 0.8rem; font-weight: 500; color: #333333; margin-left: 10px;}
+.notice_bottomtext > li::before{content: "- ";}
+.notice_bottomtext > li > p{margin-left: 8px}
+.notice_bottomtext > li > span{color: black;}
+.notice_02box{width: 70px; height: 50px; background-color: #f9ebd0; box-shadow: 3px 3px 5px #747474; position: absolute; margin-left: 475px;
+    margin-top: 32px; text-align: center; line-height: 50px; font-size: 1.5rem; font-weight: 500; color: #494949;}
+.notice_img02{float: right; margin-right: 20px; margin-top: 15px; box-shadow: 2px 2px 30px #333333; position: relative;}
+
+.footer{width: 100%; height: 119px; background-color: #38393a;}
+.footer_gnbbox{width: 1000px; margin: 0 auto;}
+.footer_gnb{text-align: center; font-family: Noto Sans KR; font-size: 1rem; font-weight: 400; color: white; line-height: 75px;}
+.footer_gnb a{color: white;}
+.footer_gnb a:hover{}
+.footer_gnb li{display: inline; margin-right: 30px;}
+.footer_gnb li::before{content: "|"; margin-right: 30px;}
+.footer_gnb li:first-child::before{content: none;}
+.footer_gnbbox p{text-align: center; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 400; color: white;}

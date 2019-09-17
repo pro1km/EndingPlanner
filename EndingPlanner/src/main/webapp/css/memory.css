@@ -1,0 +1,101 @@
+*{margin: 0px; padding: 0px; ;}
+li{list-style:none;}
+a{text-decoration: none; color: black;}
+
+/**占쏙옙占� GNB**/
+.head_box{width: 1000px; margin: 0 auto;}
+.head_gnb{height:20px; }
+.gnb{float: right; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 500; }
+.gnb a:hover{color: red; text-decoration: underline;}
+.gnb li{float: left; margin-right: 10px; }
+.gnb li::before{content: "|"; padding-right:10px; color: #999999;}
+.gnb li:first-child::before{content: none;}
+.gnb > li > a{color: #333333;}
+.logo{width:}
+.logo img{max-width: 100%;}
+.logo_text{display: inline-block; vertical-align: 10px; font-family: MDGaesung; font-size: 1.875rem;}
+.head_menu{width: 760px; font-family: Noto Sans KR; font-size: 1.125rem; font-weight: 500; display: inline-block; text-align: center; }
+.menu{}
+.menu li{display: inline-block; margin-right: 8.5%; }
+.menu > li > a{color: #333333;}
+label{cursor: pointer;}
+/**占쏙옙占� GNB 占쏙옙**/
+
+/* memory 占쌉쏙옙占쏙옙 */
+#wrap{width:100%;}
+.header{width: 100%; height: 199px; background-color: #eae3d1; margin-top: 30px;}
+.title{width: 1000px; height: 199px; margin: 0 auto; font-family: Noto Sans KR; font-size: 46px; font-weight: 500; background-image: url("../images/memorylogo.png");}
+.titletext{font-size: 48px; font-family: Noto Sans KR; padding-top: 55px;}
+.review_box1{width:1000px; height:680px; margin:0 auto;  padding-top: 20px;}
+.review_box2{height:330px; margin: 0 auto;  float: left; width: 33.3%; box-sizing: border-box;}
+.review_imgbox1{ width:170px; height:210px; margin-left:80px;} 
+.review_imgtext1{font-family: Noto Sans KR; font-size: 16px; text-align: center; margin-top: 10px;}
+.review_imgtext2{font-family: Noto Sans KR; font-size: 18px; text-align: center; margin-top: 10px;}
+.review_footer{text-align: center; margin-top: 70px; margin-top: 25px; margin-bottom: 25px;} 
+.write{margin-left:900px; padding:5px; width: 100px; height: 40px; border: 1px solid; text-align: center; font-size: 16px; line-height: 30px; border-radius: 10px;
+        cursor: pointer; background-color: #eae3d1;}
+.write:hover{background:#cabb8c; transition:all 0.7s;}
+
+/* write 占쌩몌옙占� 占쌜쇽옙 */
+form{padding-top: 20px;}
+.write_table{width: 800px; height: 500px; margin: 0 auto; margin-top: 10px;}
+.wr_tr1{height:50px;}
+.wr_td1{width: 120px;}
+.wr_text{font-size: 18px; font-weight: bold;}
+.wr_text2{font-size: 18px;}
+.wr_text3{height: 30px;}
+.wr_name{width: 600px; height: 30px; font-size: 14px;}
+.wr_textarea{width:600px; height:250px; font-size: 14px; border: none; resize: none;}
+/* .wr_fileup{width: 70px; height: 30px; display: inline-block; font-size: 14px; background-color: #edd0be; cursor: pointer; 
+           border-radius: 10px; text-align: center; line-height: 30px;} */
+.wr_back{width: 100px; height: 40px; border: 1px solid; text-align: center; font-size: 16px; line-height: 40px; border-radius: 10px; cursor:pointer; background:#fff;}
+.wr_back:hover{background:#999; transition:all 0.7s;}
+.wr_add{width: 100px; height: 40px; border: 1px solid; text-align: center; font-size: 16px; line-height: 30px; border-radius: 10px;
+        cursor: pointer; background-color: white;}
+.wr_back:hover{background:#999; transition:all 0.7s;}
+.wr_add:hover{background:#999; transition:all 0.7s;}
+.writefooter{width: 1000px; height: 80px; margin: 0 auto;}
+.wr_move > li{float: left; padding: 15px; float: left;}
+.wr_move{width: 810px; padding-left: 600px;}
+td{padding: 10px;}
+
+.bottom2{width: 1000px; height: 800px; margin: 0 auto; background-image: url("../images/noticeview2.png"); margin: 20px;}
+
+/* memoryview*/
+.contents{width: 1000px; margin: 0 auto; font-family: Noto Sans KR; }
+.c_box1{height: 300px; margin-top:20px;}
+.c_box2{width: 25%;height:300px; margin: 0 auto;  float: left; box-sizing: border-box; float:left;}
+.c_box3{width: 65%; height:210px; margin-left:60px; float: left; box-sizing: border-box;  margin-top: 48px;}
+.c_c_text1{font-family: Noto Sans KR; font-size: 18px; text-align: center;}
+.c_c_box1{width: 210px; height: 210px; margin: 0 auto; margin-top: 20px; margin-left:50px;}
+.c_c_text2{font-family: Noto Sans KR; font-size: 14px; float: left; }
+.update{float: left; width: 70px; height: 32px; border: 1px solid; text-align: center; font-size: 16px; line-height: 32px; border-radius: 10px;
+        cursor: pointer; margin-left:50px;}
+.update:hover{background:#e5e5e5; transition:all 0.7s;}        
+.delete{float: left; width: 70px; height: 32px; border: 1px solid; text-align: center; font-size: 16px; line-height: 32px; border-radius: 10px;
+        cursor: pointer; margin-left:10px;} 
+.delete:hover{background:#e5e5e5; transition:all 0.7s;} 
+.letter{width: 122px; height: 43px;}
+.letter_logo{width: 45px; height: 43px; background-image: url("../images/letter.png"); float: left;}
+.letter_text{font-family: Noto Sans KR; font-size: 18px; float: left; margin-top: 13px;}
+.writer{width: 1000px;}
+.c_wr_text{font-family: Noto Sans KR; font-size: 18px;}
+.c_wr_name{font-family: Noto Sans KR; width: 100px; height: 30px; font-size: 14px;}
+.write_box{width: 910px; margin-top: 15px; }
+.c_wr_textarea{width:766px; height:128px; font-size: 14px;  font-family: Noto Sans KR; border: solid gray 1px; resize: none; float: left;}
+.wr_uplowd{width: 130px; height: 128px; border: 1px solid; font-family: Noto Sans KR; text-align: center; font-size: 16px; line-height: 40px; background-color: #e7e2d7; float: left;}
+.form_box{width: 910px; margin: 0 auto; margin-bottom: 160px;}
+
+#comment_list{width: 910px; margin: 0 auto; }
+.comment{width: 100%; margin: 0 auto; font-family: Noto Sans KR; margin-bottom: 50px;}
+.otherwise{width: 100%; margin: 0 auto; font-family: Noto Sans KR; }
+.c_writerbox{width: 100%; height: 40px;}
+.c_writer{width: 15%; margin: 0 auto;  float: left; box-sizing: border-box; font-family: Noto Sans KR; }
+.c_writer2{width: 50%; margin: 0 auto;  float: left; box-sizing: border-box; font-family: Noto Sans KR; color: #666666;}
+.regdate{width: 15%; margin: 0 auto;  float: left; box-sizing: border-box; text-align: right; font-family: Noto Sans KR;}
+.regdate2{width: 20%; margin: 0 auto;  float: left; box-sizing: border-box; text-align: center; font-family: Noto Sans KR; color: #666666;}
+.c_commentbox{width:100%; border-bottom: dotted gray 1px; float: left;}
+.delComment{float: right;}
+.wr_back2{width: 100px; height: 40px; cursor:pointer; border: 1px solid; text-align: center; font-size: 16px; line-height: 40px; border-radius: 10px; margin-left: 848px; margin-bottom: 20px; margin-top: 10px;}
+.wr_back2:hover{background:#808080; color:#fff; transition:all 0.7s;}
+.rv_act > a{font-weight: bold;}

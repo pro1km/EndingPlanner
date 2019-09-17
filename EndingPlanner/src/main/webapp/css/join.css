@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face{font-family: 'MDGaesung'; src:url(font/MDGaesung.ttf) format('truetype');}
+
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px auto; padding: 0;}
+body{overflow-x: hidden;}
+ul{list-style:none;}
+a{text-decoration:none; color:#000000;}
+label{cursor:pointer;}
+#wrap{width: 100%; height: 1000px;  background-image: url("../images/mountains-1412683_1280.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+#header{width: 1000px; height: 10%;}
+    .head_box{width: 1000px; margin: 0 auto; }
+	.head_gnb{height:20px; }
+	.gnb{float: right; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 500; }
+	.gnb a:hover{color: red; text-decoration: underline;}
+	.gnb li{float: left; margin-right: 10px; }
+	.gnb li::before{content: "|"; padding-right:10px; color: #ffffff;}
+	.gnb li:first-child::before{content: none;}
+	.gnb > li > a{color: #ffffff;}
+	.logo img{max-width: 100%;}
+	.logo_text{display: inline-block; vertical-align: 10px; font-family: MDGaesung; font-size: 1.875rem; color:#ffffff}
+	.head_menu{width: 760px; font-family: Noto Sans KR; font-size: 1.125rem; font-weight: 500; display: inline-block; text-align: center; }
+	.menu{}
+	.menu li{display: inline-block; margin-right: 8.5%; }
+	.menu > li > a{color: #ffffff;}
+
+#contents{width: 1000px; height: 80%; margin-top: 90px;}
+    .con_wrap{width: 100%; height: 60px;}
+    .number1-1{width: 5%; height: 50px; border-radius: 200px; background-color: #b392bf; float: left; margin-right: 20px; margin-left: 33px;}
+    .number1-1 > p{color: #ffffff; text-align: center; font-weight: bold; font-size: 24px; text-decoration-line: underline; line-height: 49px;}
+    .number2-1{width: 5%; height: 50px; border-radius: 200px; background-color: #b392bf; float: left; margin: 0px 20px;}
+    .number2-1 > p{color: #ffffff; text-align: center;  font-size: 24px; line-height: 49px;}
+    .number3-1{width: 5%; height: 50px; border-radius: 200px; background-color: #b392bf; float: right; margin-right: 33px;}
+    .number3-1 > p{color: #ffffff; text-align: center; font-size: 24px; line-height: 49px;}
+    .line1-1{width: 35%; height: 2px; background-color: #b392bf; float: left; margin-top: 25px;}
+    .t_text {width: 33.3%; text-align: center; float: left; color:#ffffff; font-family: Noto Sans KR; font-weight: 100; font-size: 1rem;}
+    .t_text1-1 {color:#ffffff; float: left; margin-left: 25px; font-weight: 700; border-bottom: 1px solid #ffffff;}
+    .t_text2-1 {color:#ffffff;}
+    .t_text3-1 {color:#ffffff; float: right; margin-right: 25px;}
+
+    .text_box{width: 100%; height: 25%; margin:50px 0px 0px 0px;}
+    .text_chkbox{width: 950px; height: 50px; background: #cccccc;}
+    .text_chkbox > label{float: left;  height: 50px; line-height:50px;}
+    .text_area{clear: both; float: left; margin: 0px 25px; width: 950px; height: 200px; opacity: 0.5; resize: none;}
+    #chk1, #chk2{width:20px; height:20px; background:#fff; margin:15px; float: left;}
+    .gain{color: #ffffff; font-size: 12px; text-align: center;  margin: 60px 0px 50px 0px;}
+    .cancel{width: 120px; height: 50px; color: #fff; background-color: #666666; border-radius: 10px; text-align: center; line-height: 50px; margin-left: 360px; float: left;}
+    .ok{width: 120px; height: 50px; color: #000; background-color: #b392bf; border-radius: 10px; text-align: center; line-height: 50px; margin-right: 360px; float: right;}
+
+    .number1-2{width: 5%; height: 50px; border-radius: 200px; background-color: #b392bf; float: left; margin-right: 20px; margin-left: 33px;}
+    .number1-2 > p{color: #ffffff; text-align: center; font-weight: bold; font-size: 24px; line-height: 49px;}
+    .number2-2{width: 5%; height: 50px; border-radius: 200px; background-color: #b392bf; float: left; margin: 0px 20px;}
+    .number2-2 > p{color: #ffffff; text-align: center;  font-size: 24px; line-height: 49px; text-decoration-line: underline}
+    .number3-2{width: 5%; height: 50px; border-radius: 200px; background-color: #b392bf; float: right; margin-right: 33px;}
+    .number3-2 > p{color: #ffffff; text-align: center; font-size: 24px; line-height: 49px;}
+    .line1-2{width: 35%; height: 2px; background-color: #b392bf; float: left; margin-top: 25px;}
+    .t_text {width: 33.3%; text-align: center; float: left; color:#ffffff; font-family: Noto Sans KR; font-weight: 100; font-size: 1rem;}
+    .t_text1-2 {text-align: left; color:#ffffff; margin-left: 25px}
+    .t_text2-2 {color:#ffffff; width: 64px; font-weight: 700; border-bottom: 1px solid #ffffff;}
+    .t_text3-2 {color:#ffffff; float: right; margin-right: 25px;}
+    
+    button {width: 70px; height: 30px; cursor: pointer;}
+    input{height: 30px;}
+    select{height: 30px;}
+    .left{padding: 0px 20px 0px 50px;}
+    .user_phone > input {width: 80px;}
+    .gender > input {width: 20px; height: 20px; }
+    .write{border-top:2px solid #000000; border-bottom: 2px solid #000000; background-color: #ffffff; background-color: rgba(255,255,255,0.5); float: left; width: 79.5%; height: 460px; margin-top: 5%; margin-left: 10.5%; }
+    .text_title{padding-left: 50px; padding-right: 10px;}
+    .cancel2{width: 120px; height: 50px; color: #fff; background-color: #666666; border-radius: 10px; text-align: center; line-height: 50px; margin-left: 360px; float: left; font-size: 16px; cursor: pointer; border: none; margin-top:50px;}
+    .ok2{width: 120px; height: 50px; color: #000; background-color: #b392bf; border-radius: 10px; text-align: center; line-height: 50px; margin-right: 360px; float: right; font-size: 16px; cursor: pointer; border: none; margin-top:50px;}
+    
+    .number1-3{width: 5%; height: 50px; border-radius: 200px; background-color: #b392bf; float: left; margin-right: 20px; margin-left: 33px;}
+    .number1-3 > p{color: #ffffff; text-align: center; font-weight: bold; font-size: 24px; line-height: 49px;}
+    .number2-3{width: 5%; height: 50px; border-radius: 200px; background-color: #b392bf; float: left; margin: 0px 20px;}
+    .number2-3 > p{color: #ffffff; text-align: center;  font-size: 24px; line-height: 49px;}
+    .number3-3{width: 5%; height: 50px; border-radius: 200px; background-color: #b392bf; float: right; margin-right: 33px;}
+    .number3-3 > p{color: #ffffff; text-align: center; font-size: 24px; line-height: 49px; text-decoration-line: underline;}
+    .line1-3{width: 35%; height: 2px; background-color: #b392bf; float: left; margin-top: 25px;}
+    .t_text {width: 33.3%; text-align: center; float: left; color:#ffffff; font-family: Noto Sans KR; font-weight: 100; font-size: 1rem;}
+    .t_text1-3 {text-align: left; color:#ffffff; margin-left: 25px}
+    .t_text2-3 {color:#ffffff; width: 64px;}
+    .t_text3-3 {color:#ffffff; float: right; margin-right: 25px; font-weight: 700; border-bottom: 1px solid #ffffff;}
+    
+    .success{background-color: rgba(255,255,255,0.5); float: left; width: 79.5%; height: 460px; margin-top: 5%; margin-left: 10%; text-align: center;  font-family: Noto Sans KR; font-weight: 550;}
+    .success > img {margin-top: 10px;}
+    .suc_p1 {font-size: 2.25rem; margin-top: 50px;}
+    .suc_p2 {font-size: 1.2rem; font-family: Noto Sans KR;}
+    .to_box{width: 79.5%; height: 50px; margin-top: 60px;}
+    .to_login{font-size: 1.25rem; background-color: #666666; width: 200px; color: #ffffff; height: 50px; line-height: 50px; border-radius: 10px; float: left; margin-left: 100px;}
+    .to_main{font-size: 1.25rem; background-color: #cc99cc; width: 200px; color: #000000; height: 50px; line-height: 50px; border-radius: 10px; float: right; margin-right: 100px;}

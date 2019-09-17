@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<!-- setting 값 - 카멜표현식으로 작성한 모델의 필드값을 마이바티스에 있는 케밥 표현식으로 바꿔준다. -->
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+	</settings>
+	
+	<!-- 	모델이름을 정해주고(alias) 그 모델로 이동할수 있게 코딩 -->
+	<typeAliases>
+		<typeAlias type="kr.ac.kopo.endingplanner.model.Member" alias="Member" />
+		<typeAlias type="kr.ac.kopo.endingplanner.model.Notice" alias="Notice"/>
+		<typeAlias type="kr.ac.kopo.endingplanner.model.Memory" alias="Memory"/>
+		<typeAlias type="kr.ac.kopo.endingplanner.model.Comment" alias="Comment"/>
+		<typeAlias type="kr.ac.kopo.endingplanner.model.Lock" alias="Lock"/>
+		<typeAlias type="kr.ac.kopo.endingplanner.model.Photo" alias="Photo"/>
+	</typeAliases>
+
+	<!-- mybatis.xml 로 이동  -->
+	<mappers>
+		<mapper resource="mybatis/member.xml" />
+		<mapper resource="mybatis/notice.xml"/>
+		<mapper resource="mybatis/memory.xml"/>
+		<mapper resource="mybatis/lock.xml"/>
+		<mapper resource="mybatis/photo.xml"/>
+	</mappers>
+</configuration>

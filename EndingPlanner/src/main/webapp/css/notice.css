@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face{font-family: 'MDGaesung'; src:url(font/MDGaesung.ttf) format('truetype');}
+
+*{margin: 0px; padding: 0px; ;}
+#wrap{width:100%;}
+li{list-style:none;}
+a{text-decoration: none; color: black;}
+
+.head_box{width: 1000px; margin: 0 auto;}
+.head_gnb{height:20px; }
+.gnb{float: right; font-family: Noto Sans KR; font-size: 0.875rem; font-weight: 500; }
+.gnb a:hover{color: red; text-decoration: underline;}
+.gnb li{float: left; margin-right: 10px; }
+.gnb li::before{content: "|"; padding-right:10px; color: #999999;}
+.gnb li:first-child::before{content: none;}
+.gnb > li > a{color: #333333;}
+.logo{width:}
+.logo img{max-width: 100%;}
+.logo_text{display: inline-block; vertical-align: 10px; font-family: MDGaesung; font-size: 1.875rem;}
+.head_menu{width: 760px; font-family: Noto Sans KR; font-size: 1.125rem; font-weight: 500; display: inline-block; text-align: center; }
+.menu{}
+.menu li{display: inline-block; margin-right: 8.5%; }
+.menu > li > a{color: #333333;}
+
+#wrap{width:100%; height: 590px; margin-top:20px;}
+.header{width: 100%; height: 199px; background-color: #f6e9fd; margin-top: 30px;}
+.title{width: 1000px; height: 199px; margin: 0 auto; font-family: Noto Sans KR; font-size: 46px; font-weight: 500; background-image: url("../images/noticebg.png");}
+.titletext1{font-size: 24px; font-family: Noto Sans KR; padding-top: 30px; }
+.titletext2{font-size: 48px; font-family: Noto Sans KR;} 
+/* .header{width:100%; height:200px; margin:0 auto; background-color: #fbecec; margin-top: 0px;}
+.firstbox{width:1000px; height:200px; margin:0 auto; margin-top: 0px;}
+.textbox{width:500px; height:200px; margin: 0 auto;  float: left; width: 50%; box-sizing: border-box; border: solid red;}
+.imgbox{width:500px; height:200px; margin: 0 auto;  float: left; width: 50%; box-sizing: border-box;border: solid blue; background-image: url("../images/header_img.png");}
+.text1{font-size: 24px; font-weight: bold; padding-top: 53px; margin-left: 28px; border: solid red;}
+.text2{font-size: 48px; font-weight: bold; padding-top: 20px; margin-left: 28px; border: solid red;} */
+
+
+/* notice(list) */
+table {width: 1000px; border-top: 2px solid black; border-collapse: collapse; border-spacing: 0; margin: 0 auto; margin-top: 70px; text-align: center; font-family: Noto Sans KR;}
+th {border-bottom: 1px solid black;}
+td {border-bottom: 1px solid black;}
+tr{height: 40px;}
+tr:nth-child(odd) {background-color: #e2dfdf;}
+tr:nth-child(even) {background-color: #f6f5f5;}
+tr:first-child {background-color: white;}
+.notice_footer{width: 1000px; height: 80px; margin: 0 auto; text-align: center; padding-top: 25px; font-family: Noto Sans KR;} 
+.ho:hover{color:#f00; transition:all 0.5s;}
+
+/* noticeview */
+.n_view_box1{width: 1000px; margin: 0 auto; font-family: Noto Sans KR;}
+.n_view_box2{width: 100%; height: 180px; margin: 0 auto; border-bottom: dashed gray 1px;}
+.n_view_box3{width: 100%; height: 60px; float: left; box-sizing: border-box; }
+.n_view_content1{width: 20%; font-family: Noto Sans KR; font-size: 18px; float: left; margin-top: 10px;}
+.n_view_content2{width: 80%; font-family: Noto Sans KR; font-size: 18px; float: left; margin-top: 10px; font-weight: bold;}
+.n_view_box4{width: 100%; height: 60px; float: left; box-sizing: border-box;}
+.n_view_content3{width: 20%; font-family: Noto Sans KR; font-size: 18px; float: left; margin-top: 10px;}
+.n_view_content4{width: 40%; font-family: Noto Sans KR; font-size: 18px; float: left; margin-top: 10px;}
+.n_view_content3_1{width: 50%; float: left;}
+.n_view_content4_1{width: 50%; float: left;}
+.n_view_content5_1{width: 50%; float: left;}
+.n_view_content5{width: 40%; font-family: Noto Sans KR; font-size: 18px; float: left; margin-top: 10px;}
+.n_view_box5{width: 100%; height: 60px; float: left; box-sizing: border-box; font-size: 18px;}
+.n_view_box6{widows: 100%; border-top: dashed gray 1px; border-bottom: solid gray 1px;}
+.n_view_content7{ margin-top: 10px; margin-bottom: 10px;}
+.view_back{width: 100px; height: 40px; cursor:pointer; border: 1px solid; font-family: Noto Sans KR; text-align: center; font-size: 16px; line-height: 40px; color: white; background-color: #1d1d1d; float: right; margin-top: 10px;}
+.view_back:hover{background:#000; transition:all 0.7s;}
