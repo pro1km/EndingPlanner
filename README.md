@@ -18,11 +18,11 @@ EndingPlanner
 
 [메인페이지.css](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/css/main.css)
 
-<img width="500" height="500" href="![ED-mainpage](https://user-images.githubusercontent.com/51186886/65738155-df67d000-e11b-11e9-8f44-fd6bb1ff6723.PNG)">
+![ED-mainpage](https://user-images.githubusercontent.com/51186886/65738155-df67d000-e11b-11e9-8f44-fd6bb1ff6723.PNG){: width="500" height="500"}
 
-</img>
-<img width="500" height="500">
+<img width="500" height="500" src="https://user-images.githubusercontent.com/51186886/65758534-34bfd380-e154-11e9-8775-d1028a6cd7fe.PNG"></img>
+
+
 ![ED-mainpage(720)](https://user-images.githubusercontent.com/51186886/65758534-34bfd380-e154-11e9-8775-d1028a6cd7fe.PNG)
-</img>
 
 
