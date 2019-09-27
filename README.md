@@ -28,6 +28,15 @@ pc사이즈 메인페이지입니다.
 
 태블릿사이즈 메인페이지입니다. 캐러셀 자동 슬라이드와 햄버거 메뉴를 통해 메뉴가 드롭다운으로 보이도록 동적인 연출을 만들었습니다.
 
+## 2.3 메인페이지(모바일)
+
+![ED-mobile-main](https://user-images.githubusercontent.com/51186886/65765300-d77f4e80-e162-11e9-96de-4f9d29eb706d.png)
+
+모바일사이즈 메인페이지입니다. 기능은 태블릿과 동일합니다.
+
+## 메인페이지 코드
+[메인페이지.jsp](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/WEB-INF/views/index.jsp)
 [메인페이지.css](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/css/main.css)
+[메인페이지.js](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/js/main.js)
 
 
