@@ -15,11 +15,9 @@ EndingPlanner
 반응형 메인페이지, 캐러셀 자동 슬라이드, 원 페이지 스크롤, 햄버거 메뉴 등을 만들며 Javascript와 Jquery를 활용해본 경험이 되었습니다.
 
 ## 2.1 메인페이지
- ```
- ㅎ
- ```
+
 [메인페이지.css](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/css/main.css)
-```
+
 ![ED-mainpage](https://user-images.githubusercontent.com/51186886/65738155-df67d000-e11b-11e9-8f44-fd6bb1ff6723.PNG)
-```
+
 
