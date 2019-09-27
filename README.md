@@ -2,7 +2,7 @@ EndingPlanner
 ==============
 마지막의 나의 모습을 담을 수 있는 웹 사이트
 
-# 1.프로젝트 소개
+# 1. 프로젝트 소개
   * 마지막의 나의 모습을 담을 수 있는 웹 사이트인 "엔딩플래너"
   * 생전에 기쁘고 슬픈 일, 남기고 싶은 모든 것에 대한 사진과 글을 업로드
   * 글만으로는 표현할 수 없는 그 때 그 상황의 기분과 감정을 사진으로 표현
@@ -10,13 +10,13 @@ EndingPlanner
 
 ****
 
-# 2.내 활동
+# 2. 내 활동
 이번 팀 프로젝트는 2019.04 ~ 2019.06 동안 진행하였고 퍼블리싱을 주로 담당하였습니다.
 반응형 메인페이지, 캐러셀 자동 슬라이드, 원페이지 스크롤, 햄버거 메뉴 등을 만들며 Javascript와 Jquery를 활용해본 경험이 되었습니다.
 
 ## 2.1. 메인페이지 퍼블리싱
 
-### 2.1.1 메인페이지(PC)
+### 2.1.1. 메인페이지(PC)
 
 ![ED-pc-main](https://user-images.githubusercontent.com/51186886/65764049-acdfc680-e15f-11e9-8ee8-e58471b7dec1.png)
 
@@ -41,4 +41,11 @@ pc사이즈 메인페이지입니다.
 [메인페이지.css](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/css/main.css) / 
 [메인페이지.js](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/js/main.js)
 
+## 2.2. 소개페이지 퍼블리싱
+
+![ED-intro](https://user-images.githubusercontent.com/51186886/65765716-fb8f5f80-e163-11e9-8cb7-191bfab2b6c0.PNG)
+
+### 2.2.1. 소개페이지 코드
+[소개페이지.jsp](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/WEB-INF/views/intro.jsp)
+[소개페이지.css](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/css/intro.css)
 
