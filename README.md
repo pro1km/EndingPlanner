@@ -14,7 +14,9 @@ EndingPlanner
 이번 팀 프로젝트는 2019.04 ~ 2019.06 동안 진행하였고 퍼블리싱을 주로 담당하였습니다.
 반응형 메인페이지, 캐러셀 자동 슬라이드, 원페이지 스크롤, 햄버거 메뉴 등을 만들며 Javascript와 Jquery를 활용해본 경험이 되었습니다.
 
-## 2.1 메인페이지(PC)
+## 2.1. 메인페이지 퍼블리싱
+
+### 2.1.1 메인페이지(PC)
 
 ![ED-pc-main](https://user-images.githubusercontent.com/51186886/65764049-acdfc680-e15f-11e9-8ee8-e58471b7dec1.png)
 
@@ -22,21 +24,21 @@ pc사이즈 메인페이지입니다.
 퍼블리싱을 직접하고 Jquery로 캐러셀 자동 슬라이드를 만들어서 일정 시간마다 이미지가 넘어가고 화살표 버튼을 눌러도 넘어가지도록 하였습니다.
 그리고 마우스 휠을 움직일 때마다 한 페이지씩 스크롤이 됩니다.
 
-## 2.2 메인페이지(태블릿)
+### 2.1.2. 메인페이지(태블릿)
 
 ![ED-tab-main](https://user-images.githubusercontent.com/51186886/65764552-dea55d00-e160-11e9-9932-9f1fd6e6c83c.png)
 
 태블릿사이즈 메인페이지입니다. 캐러셀 자동 슬라이드와 햄버거 메뉴를 통해 메뉴가 드롭다운으로 보이도록 동적인 연출을 만들었습니다.
 
-## 2.3 메인페이지(모바일)
+### 2.1.3 메인페이지(모바일)
 
-![ED-mobile-main](https://user-images.githubusercontent.com/51186886/65765300-d77f4e80-e162-11e9-96de-4f9d29eb706d.png)
+![ED-mobile-main](https://user-images.githubusercontent.com/51186886/65765525-7906a000-e163-11e9-9356-8596df0a09cd.png)
 
 모바일사이즈 메인페이지입니다. 기능은 태블릿과 동일합니다.
 
-## 메인페이지 코드
-[메인페이지.jsp](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/WEB-INF/views/index.jsp)
-[메인페이지.css](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/css/main.css)
+### 2.1.4 메인페이지 코드
+[메인페이지.jsp](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/WEB-INF/views/index.jsp) / 
+[메인페이지.css](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/css/main.css) / 
 [메인페이지.js](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/js/main.js)
 
 
