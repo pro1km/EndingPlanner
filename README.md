@@ -16,7 +16,8 @@ EndingPlanner
 
 ## 2.1 메인페이지
 
-<img border="1px solid black" src="https://user-images.githubusercontent.com/51186886/65738155-df67d000-e11b-11e9-8f44-fd6bb1ff6723.PNG"></img>
+![ED-pc-main](https://user-images.githubusercontent.com/51186886/65764049-acdfc680-e15f-11e9-8ee8-e58471b7dec1.png)
+
 pc사이즈 메인페이지입니다. Jquery로 캐러셀 자동 슬라이드를 만들어서 일정 시간마다 이미지가 넘어가고 화살표 버튼을 눌러도 넘어가지도록 하였습니다.
 그리고 마우스 휠을 움직일 때마다 한 페이지씩 스크롤이 됩니다.
 
