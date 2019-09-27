@@ -19,3 +19,6 @@ EndingPlanner
  ㅎ
  ```
 [메인페이지.css](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/css/main.css)
+
+![ED-mainpage](https://user-images.githubusercontent.com/51186886/65738155-df67d000-e11b-11e9-8f44-fd6bb1ff6723.PNG)
+
