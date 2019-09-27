@@ -46,6 +46,17 @@ pc사이즈 메인페이지입니다.
 ![ED-intro](https://user-images.githubusercontent.com/51186886/65765716-fb8f5f80-e163-11e9-8cb7-191bfab2b6c0.PNG)
 
 ### 2.2.1. 소개페이지 코드
-[소개페이지.jsp](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/WEB-INF/views/intro.jsp)
+[소개페이지.jsp](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/WEB-INF/views/intro.jsp) / 
 [소개페이지.css](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/css/intro.css)
 
+## 2.3. 마이페이지 퍼블리싱
+
+![ED-mypage](https://user-images.githubusercontent.com/51186886/65766305-93417d80-e165-11e9-95d2-eec98e45d739.png)
+
+Jquery를 활용해서 탭메뉴를 만들었습니다.
+
+### 2.3.1. 마이페이지 코드
+
+[마이페이지.jsp](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/WEB-INF/views/mypage.jsp) / 
+[마이페이지.css](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/css/mypage.css) / 
+[마이페이지.js](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/js/mypage.js)
