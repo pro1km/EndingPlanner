@@ -18,3 +18,4 @@ EndingPlanner
  ```
  ㅎ
  ```
+[메인페이지.css](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/css/main.css)
