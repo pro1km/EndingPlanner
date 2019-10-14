@@ -29,6 +29,10 @@ pc사이즈 메인페이지입니다.
 ### 2.1.2. 메인페이지(태블릿)
 
 ![ED-tab-main](https://user-images.githubusercontent.com/51186886/65764552-dea55d00-e160-11e9-9932-9f1fd6e6c83c.png)
+![탭-메인1](https://user-images.githubusercontent.com/51186886/66740027-0f99c780-eead-11e9-89ec-7c85a958494b.PNG)
+![탭-메인2](https://user-images.githubusercontent.com/51186886/66740034-11638b00-eead-11e9-9be1-3b3dc1c78f6b.PNG)
+![탭-메인3](https://user-images.githubusercontent.com/51186886/66740035-11638b00-eead-11e9-8766-3461e04cabaf.PNG)
+
 
 태블릿사이즈 메인페이지입니다. 캐러셀 자동 슬라이드와 햄버거 메뉴를 통해 메뉴가 드롭다운으로 보이도록 동적인 연출을 만들었습니다.
 
