@@ -18,7 +18,6 @@ EndingPlanner
 
 ### 2.1.1. 메인페이지(PC)
 
-![ED-pc-main](https://user-images.githubusercontent.com/51186886/65764049-acdfc680-e15f-11e9-8ee8-e58471b7dec1.png)
 ![메인1](https://user-images.githubusercontent.com/51186886/66738989-b892f300-eeaa-11e9-82db-29dcb922f62a.PNG)
 ![메인2](https://user-images.githubusercontent.com/51186886/66738990-b92b8980-eeaa-11e9-98e3-9b3afe77ac4f.PNG)
 ![메인3](https://user-images.githubusercontent.com/51186886/66738991-b92b8980-eeaa-11e9-88bd-6af89e42dbca.PNG)
