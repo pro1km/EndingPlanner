@@ -35,6 +35,7 @@ pc사이즈 메인페이지입니다.
 ### 2.1.3 메인페이지(모바일)
 
 ![엔딩플래너-모바일](https://user-images.githubusercontent.com/51186886/66811271-c3fa2300-ef6b-11e9-98b7-7b5d254c1f3b.png)
+![ED-모바일](https://user-images.githubusercontent.com/51186886/66821975-4c81bf00-ef7e-11e9-858c-17bd7890ecc5.png)
 
 모바일사이즈 메인페이지입니다. 기능은 태블릿과 동일합니다.
 
