@@ -53,10 +53,9 @@ pc사이즈 메인페이지입니다.
 
 ## 2.3. 마이페이지 퍼블리싱
 
-![ED-mypage](https://user-images.githubusercontent.com/51186886/65766305-93417d80-e165-11e9-95d2-eec98e45d739.png)
 ![ED-mypage](https://user-images.githubusercontent.com/51186886/66818073-b5b20400-ef77-11e9-95e6-eccd3a1e5ae2.png)
-![ED-mypage2](https://user-images.githubusercontent.com/51186886/66818074-b64a9a80-ef77-11e9-8238-5aa117bb3d01.PNG)
-![ED-mypage3](https://user-images.githubusercontent.com/51186886/66818099-c2365c80-ef77-11e9-9df7-dd774e0a3370.PNG)
+![ED-mypage2](https://user-images.githubusercontent.com/51186886/66818308-18a39b00-ef78-11e9-93e5-d81efe098832.png)
+![ED-mypage3](https://user-images.githubusercontent.com/51186886/66818310-18a39b00-ef78-11e9-97cd-62c094f5240b.png)
 
 Jquery를 활용해서 탭메뉴를 만들었습니다.
 
