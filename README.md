@@ -45,7 +45,7 @@ pc사이즈 메인페이지입니다.
 
 ## 2.2. 소개페이지 퍼블리싱
 
-![ED-intro](https://user-images.githubusercontent.com/51186886/65765716-fb8f5f80-e163-11e9-8cb7-191bfab2b6c0.PNG)
+![ED-intro](https://user-images.githubusercontent.com/51186886/66816834-b6e23180-ef75-11e9-8136-065064e915fc.png)
 
 ### 2.2.1. 소개페이지 코드
 [소개페이지.jsp](https://github.com/pro1km/EndingPlanner/blob/master/EndingPlanner/src/main/webapp/WEB-INF/views/intro.jsp) / 
